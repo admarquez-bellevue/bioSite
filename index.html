@@ -8,39 +8,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="landingpage_styles.css"?
-    <title>Landing Page</title>
+    <title>BioSite</title>
+    <link rel="stylesheet" href="landingpage_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <h1>BioSite</h1>
+    <header class="header">
+        <div class="logo">BioSite</div>
+        <nav class="menu">
+            <a href="index.html" class="menu-item">Home</a>
+            <a href="about.html" class="menu-item">About</a>
+            <a href="hobbies.html" class="menu-item">Hobbies</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Gabrielle Murray</h1>
+            <p>Embrace creativity, freedom, and self-expression.</p>
+            <a href="about.html" class="button">Read More</a>
         </div>
-        <div class="menu">
-            <a href="#" class="menu-item">HOME</a>
-            <a href="#" class="menu-item">ABOUT</a>
-            <a href="#" class="menu-item">HOBBIES</a>
+        <div class="hero-image">
+            <img src="images/gabby.jpg" alt="Bohemian Style Girl">
         </div>
-    </div>
-    <div class="container">
-        <div class="main-image">
-            <img src="images/gabby.jpg" alt="Photo of girl" width="602.2" height="518.8">
+    </section>
+
+    <section class="content">
+        <div class="text-block">
+            <h2>About</h2>
+            <p>Follow her journey through art, travel, and soulful connections.</p>
         </div>
-        <div class="text-content">
-            <div class="text-block">
-                <p>Lorem ipsum dolor...</p>
-            </div>
-            <div class="text-block">
-                <p>Lorem ipsum dolor...</p>
-            </div>
-            <div class="text-block">
-                <p>Lorem ipsum dolor...</p>
-            </div>
-            <div class="side-image"></div>
+        <div class="text-block">
+            <h2>Hobbies</h2>
+            <p>From yoga to painting, every hobby tells a story.</p>
         </div>
-    </div>
-    <div class="footer">
-        <div class="text-block">Footer Content</div>
-    </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Adrian Marquez</p>
+    </footer>
 </body>
 </html>

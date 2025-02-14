@@ -1,62 +1,70 @@
 <!--
     Adrian Marquez
     02/09/2026
-    Module 6.3
+    Module 7.3
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies</title>
+    <title>BioSite</title>
     <link rel="stylesheet" href="hobbies.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <h1>BioSite</h1>
-        </div>
+        <div class="logo">BioSite</div>
         <nav class="menu">
-            <a href="#" class="menu-item">Home</a>
-            <a href="#" class="menu-item">About</a>
-            <a href="#" class="menu-item">Hobbies</a>
+            <a href="index.html" class="menu-item">Home</a>
+            <a href="about.html" class="menu-item">About</a>
+            <a href="hobbies.html" class="menu-item active">Hobbies</a>
         </nav>
     </header>
 
-    <main class="container">
-        <section class="about-content">
-            <h1>Gabby's Hobbies</h1>
-        </section>
-    
-        <div class="hobby-sections">
-            <section class="hobby-section">
-                <h2>Roller Skating</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod urna ut lectus interdum, non luctus nulla cursus.</p>
-                <div class="image-gallery">
-                    <div class="gallery-item"><img src="#" alt="Roller Skating"></div>
-                </div>
-            </section>
-    
-            <section class="hobby-section">
-                <h2>Karaoke</h2>
-                <p>Curabitur eget lorem eget nisi fermentum eleifend. Vivamus vel dolor sed erat dapibus posuere.</p>
-                <div class="image-gallery">
-                    <div class="gallery-item"><img src="#" alt="Karaoke"></div>
-                </div>
-            </section>
-    
-            <section class="hobby-section">
-                <h2>Reading</h2>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vel dolor</p>
-                <div class="image-gallery">
-                    <div class="gallery-item"><img src="#" alt="Reading"></div>
-                </div>
-            </section>
+    <section class="hobbies-hero">
+        <div class="hero-text">
+            <h1>Embracing Joy Through Movement</h1>
+            <p>Gabby finds passion in the little things—movement, music, and moments of serenity.</p>
         </div>
+    </section>
+
+    <main class="hobby-container">
+        <section class="hobby">
+            <div class="hobby-image">
+                <img src="images/skating.jpg" alt="Roller Skating">
+            </div>
+            <div class="hobby-text">
+                <h2>Roller Skating</h2>
+                <p>Gliding on wheels, feeling the breeze, and moving freely—roller skating is Gabby’s way of unwinding and having fun. 
+                It’s not just about exercise, but about flow, energy, and joy.</p>
+            </div>
+        </section>
+        <section class="hobby">
+            <div class="hobby-text">
+                <h2>Karaoke Nights</h2>
+                <p>Music is a universal language, and Gabby loves singing her heart out during karaoke nights. 
+                Whether it's a power ballad or a fun duet, it’s all about **self-expression and letting go.**</p>
+            </div>
+            <div class="hobby-image">
+                <img src="images/karaoke.jpg" alt="Karaoke Singing">
+            </div>
+        </section>
+
+        <section class="hobby">
+            <div class="hobby-image">
+                <img src="images/reading.jpg" alt="Reading Books">
+            </div>
+            <div class="hobby-text">
+                <h2>Getting Lost in Books</h2>
+                <p>From poetry to deep philosophy, reading opens new perspectives. Gabby enjoys curling up with a book, 
+                    allowing her imagination to wander into new worlds and ideas.</p>
+            </div>
+        </section>
     </main>
 
-    <div class="footer">
-        <div class="text-block">Footer Content</div>
-    </div>
+    <footer class="footer">
+        <p>© 2025 Adrian Marquez</p>
+    </footer>
 </body>
 </html>
